@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap');
+h1,h2,h3,h4,h5,h6,p{
+
+	font-family: 'Montserrat', sans-serif;
+
+}
+ul,li{
+	font-family: 'Great Vibes', cursive;
+}
+body{
+	 background: transparent;
+}
+html{
+	background: url(/static/img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.padding-none{
+	padding-left:0px;
+	padding-right:0px;
+}
+.title span{
+	border-image: none;
+    display: inline-block;
+    margin: 5px 5px;
+    width: 25px;
+    border-style: solid none none;
+    border-width: 2px 0px 0px;
+    color: #f9667e;
+}
+.container-wrap{
+	padding-top: 10%;
+}
+.title{
+	 color: #666;
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: lowercase;
+	margin-bottom:20px;
+}
+ul.names {
+    list-style: none;
+    display: inline;
+    font-size: 85px;
+    font-weight: 300;
+    padding: 0px;
+}
+ul.names li {
+    display: inline-block;
+}
+.circle {
+    color: #F9667E;
+}
+.date{
+    font-size: 25px;
+    margin-top: 20px;
+    color: #7b7571;
+    font-weight: 500;
+}
+.date span {
+    font-size: 40px;
+    border-bottom: solid 2px #F9667E;
+    line-height: 1em;
+}
+.hour {
+    font-size: 20px;
+    margin-top: 20px;
+	color: #7b7571;
+}
+.hour span {
+    font-size: 15px;
+}
+h3{
+	font-size:24px;
+	color: #7b7571;
+}
